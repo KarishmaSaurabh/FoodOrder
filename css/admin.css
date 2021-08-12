@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 40%;
+}
+
+table tr th {
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding: 1%;
+}
+
+.btn-primary {
+    background-color: #227093;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #34ace0;
+}
+
+.btn-secondary {
+    background-color: #079992;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #38ada9;
+}
+
+.btn-danger {
+    background-color: #eb2f06;
+    padding: 2%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #e55039;
+}
+
+.success {
+    color: #341f97;
+}
+
+.error {
+    color: #e67e22;
+}
+
+
+/* menu */
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #B33771;
+}
+
+.menu ul li a:hover {
+    color: #6D214F;
+}
+
+.menu {
+    border-bottom: 1px solid #CAD3C8;
+}
+
+
+/* main-content */
+
+.main-content {
+    background-color: #CAD3C8;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: #B33771;
+    color: white;
+}
+
+
+/* css for login */
+
+.login {
+    border: 1px solid grey;
+    width: 40%;
+    margin: 15% auto;
+    padding: 2%;
+}
